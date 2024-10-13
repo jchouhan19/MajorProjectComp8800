@@ -1,1 +1,31 @@
 # MajorProjectComp8800
+
+I did NOT - I repeat: DID NOT
+
+I DID NOT create the files of Tutorial.ipynb and generate_tfrecord.py 
+They were present when I cloned the repo below:
+
+THIS REPO: https://github.com/nicknochnack/RealTimeObjectDetection
+
+ 
+ Here’s a breakdown of what those files are and how they will help me in my project, as well as everything they do not do and I have to do myself::
+
+Model Training: The provided code outlines the process of setting up paths, generating TF records, 
+creating a label map, and training a model. 
+However, I will still need to adapt and train the model specifically for sign language interpretation, which involves using a dataset of sign language images or videos.
+
+Moreover, The code for real-time detection is generic and won’t interpret sign language without my own code. 
+I will need to replace the mask detection classes with my own sign language classes and train the model on my specific dataset.
+
+Real-Time Detection: The code for real-time detection is generic and won’t interpret sign language without further adaptation. 
+I'll need to replace the mask detection classes with my own sign language classes and train the model on my specific dataset.
+
+Custom Implementation: After setting up the initial code, I will need to implement additional functionalities specific to my sign language 
+interpreter, such as processing the detected signs into meaningful interpretations.
+
+generatetf_Record: Finally, the generate_tfrecord.py file helps convert XML annotations into the TFRecord format required for training 
+TensorFlow models. It's a useful tool for my sign language interpreter project.
+
+Overall, the code I have is a good starting point, but that's all it is, a starting point.
+As all other functionalities still need to be created by me, as well as actually porting this to unity when the time comes for that. 
+I just wanted to have this section to clarify all of that.

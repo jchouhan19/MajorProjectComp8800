@@ -1,7 +1,10 @@
 I did NOT - I repeat: DID NOT
 
-I DID NOT create the files of Tutorial.ipynb and generate_tfrecord.py 
-They were present when I cloned the repo below:
+I DID NOT create the files of Tutorial.ipynb and generate_tfrecord.py,
+ Although I did change and add to them to work better with my specific project
+
+
+They original files however were present when I cloned the repo below:
 
 THIS REPO: https://github.com/nicknochnack/RealTimeObjectDetection
 
@@ -10,8 +13,6 @@ THIS REPO: https://github.com/nicknochnack/RealTimeObjectDetection
 
 
 ***What the Code Does***:
-
-    Set Up Paths: It initializes paths for the TensorFlow workspace, scripts, model directory, and other resources. This organizes my project structure.
 
     Create Label Map: The code generates a label map file (label_map.pbtxt) containing labels for the classes I'll be detecting (e.g., Mask and NoMask).
 

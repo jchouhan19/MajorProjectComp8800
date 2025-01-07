@@ -1,1 +1,1 @@
-# MajorProjectComp8800
+# Sign Language Interpretor Project by Jugraj Chouhan

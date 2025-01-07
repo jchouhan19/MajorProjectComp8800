@@ -1,7 +1,7 @@
 I did NOT - I repeat: DID NOT
 
-I DID NOT create the files of Tutorial.ipynb and generate_tfrecord.py,
- Although I did change and add to them to work better with my specific project
+I DID NOT create the files of Tutorial.ipynb (didnt create original generate_Tf records file, but ended up having to create it myself anyways as it wouldnt recover from other branch),
+ I did also change and add to them to work better with my specific project
 
 
 They original files however were present when I cloned the repo below:

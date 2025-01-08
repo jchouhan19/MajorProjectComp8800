@@ -15,6 +15,8 @@ optional arguments:
   -c CSV_PATH, --csv_path CSV_PATH
                         Path of output .csv file. If none provided, then no file will be written.
 """
+"""THANK THE LORD I FOUND THIS KEEEP THIS UPTOP AS WELL FOR TUTORIAL"""
+
 
 import os
 import glob

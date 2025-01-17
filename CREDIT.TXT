@@ -1,12 +1,5 @@
-I did NOT - I repeat: DID NOT
-
-I DID NOT create the files of Tutorial.ipynb (didnt create original generate_Tf records file, but ended up having to create it myself anyways as it wouldnt recover from other branch),
- I did also change and add to them to work better with my specific project
-
-
-They original files however were present when I cloned the repo below:
-
-THIS REPO: https://github.com/nicknochnack/RealTimeObjectDetection
+I didnt create original generate_Tf records file, but ended up having to create it myself anyways as it wouldnt recover from other branch),
+ I did also change and add to them to work better with my specific project.
 
  
  Here’s a breakdown of what those files are and how they will help me in my project, as well as everything they do not do and I have to do myself:

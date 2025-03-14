@@ -1,9 +1,3 @@
-I didnt create original generate_Tf records file, but ended up having to create it myself anyways as it wouldnt recover from other branch),
- I did also change and add to them to work better with my specific project.
-
- 
- Here’s a breakdown of what those files are and how they will help me in my project, as well as everything they do not do and I have to do myself:
-
 
 ***What the Code Does***:
 
@@ -11,7 +5,7 @@ I didnt create original generate_Tf records file, but ended up having to create 
 
     Generate TFRecords: It runs the generate_tfrecord.py script to convert images and annotations into TFRecord format, which is the standard input format for TensorFlow's object detection models.
 
-    Download Pre-trained Model: It clones the TensorFlow models repository and prepares to use the SSD MobileNet V2 model for object detection. This model is already trained, so I won't need to train from scratch.
+    Download Pre-trained Model: It clones the TensorFlow models repository and prepares to use the SSD MobileNet V2 model for object detection. This model is already trained, so I won't need to train from scratch. But I still update the pipeline with my own code to make it work for my specific project.
 
     Configure Model for Transfer Learning: The code updates the pipeline configuration file (pipeline.config) to specify the number of classes and paths for the training data. This allows me to fine-tune the pre-trained model on my specific classes.
 
@@ -19,23 +13,3 @@ I didnt create original generate_Tf records file, but ended up having to create 
 
     Real-Time Detection: The code sets up a webcam feed to capture frames and performs real-time detection using the model. It displays the results with bounding boxes and labels on the video feed.
 
-
-***Below is a surface level dive into what I will be completing for this project (more info will be given with each commit)***
-    1. Prepare the Dataset
-    Collect Hand Sign Images: Gather images of different hand signs that I want the model to recognize. Ideally, I should have multiple images for each sign to improve the model's accuracy.
-    Annotate the Images: Use a tool like LabelImg or VoTT to annotate the hand signs in my images. This involves drawing bounding boxes around the signs and labeling them appropriately (e.g., "hello," "thank you").
-    Convert Annotations to TFRecord: Once I have the annotated images, I'll need to convert these annotations into TFRecord format. This is done using the generate_tfrecord.py script included in the TensorFlow Object Detection API.
-    I should ensure that my command references the correct paths to my image and label files
-
-    2. Set Up the Development Environment
-    Install Required Packages: Follow the setup guide in the TensorFlow Object Detection API tutorial to install all necessary dependencies, including TensorFlow, OpenCV, and any other libraries I may need.
-    Clone the TensorFlow Models Repository: As shown in the provided code, I need to clone the TensorFlow models repository to access the object detection models and utilities
-
-    3. Modify the Label Map: Update the Label Map File: Edit the label maps to include my specific classes, which correspond to the hand signs I want the model to recognize. Each class should have a unique ID.
-
-    4. Custom Implementation: After setting up the initial code, I will need to implement additional functionalities specific to my sign language 
-    interpreter, such as processing the detected signs into meaningful interpretations.
-
-    4. Integrate with Unity: Once I have the real-time detection working in Python, I’ll need to port this functionality into Unity. This involves using Unity's capabilities to capture video input and making API calls to the TensorFlow model for inference.
-    
-    5. Create Game Logic: Develop the game mechanics that respond to the detected signs, such as displaying corresponding text or actions based on the recognized hand signs.

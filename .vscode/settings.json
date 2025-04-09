@@ -1,5 +1,6 @@
 {
     "python.analysis.extraPaths": [
-        "./Tensorflow/models/official/projects/fffner/utils/convert_checkpoint_"
+        "./Tensorflow/models/official/projects/fffner/utils/convert_checkpoint_",
+        "./Tensorflow/models/research"
     ]
 }
